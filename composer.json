@@ -1,5 +1,5 @@
 {
-    "name": "g105b/oauth2-twitter",
+    "name": "byjg/oauth2-twitter",
     "description": "Twitter OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
     "license": "MIT",
     "authors": [
@@ -18,8 +18,8 @@
         "twitter"
     ],
     "require": {
-        "php": ">=5.5.0",
-        "league/oauth2-client": "dev-master"
+        "php": "^5.6 || ^7.0",
+        "league/oauth2-client": "^2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
@@ -34,11 +34,6 @@
     "autoload-dev": {
         "psr-4": {
             "League\\OAuth2\\Client\\Test\\": "test/src/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
         }
     }
 }
